@@ -1,0 +1,15 @@
+/* Only utilities — no base or components to avoid Vuetify conflicts */
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', Roboto, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Section anchor offset for fixed navbar */
+section[id] {
+  scroll-margin-top: 64px;
+}

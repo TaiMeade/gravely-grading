@@ -1,8 +1,7 @@
 <template>
   <v-app-bar
     color="primary"
-    :elevation="scrolled ? 4 : 0"
-    style="transition: box-shadow 0.3s ease;"
+    :elevation="4"
   >
     <!-- Logo / Brand -->
     <v-app-bar-title>

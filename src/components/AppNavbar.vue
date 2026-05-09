@@ -1,9 +1,8 @@
 <template>
   <v-app-bar
-    :color="scrolled ? 'primary' : 'transparent'"
+    color="primary"
     :elevation="scrolled ? 4 : 0"
-    :class="['transition-all duration-300', scrolled ? '' : 'navbar-transparent']"
-    style="transition: background-color 0.3s ease, box-shadow 0.3s ease;"
+    style="transition: box-shadow 0.3s ease;"
   >
     <!-- Logo / Brand -->
     <v-app-bar-title>
